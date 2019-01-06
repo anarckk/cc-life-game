@@ -4,8 +4,7 @@
 
 export function copyNode(node: cc.Node): cc.Node {
     const newNode = cc.instantiate(node);
-    if(newNode.uuid === node.uuid) {
-        console.warn('cc.instantiate 没有重设uuid', newNode.uuid);
-    }
+    console.log('新的uuid', newNode.uuid);
+    console.log('原来的Uuid', node.uuid);
     return newNode;
 }

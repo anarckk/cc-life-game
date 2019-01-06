@@ -1,0 +1,21 @@
+{
+  "name": "cc-life-game",
+  "version": "1.0.0",
+  "description": "用 cocos 开发的 life-game",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cc_life_game.com:anarckk/cc-life-game.git"
+  },
+  "keywords": [
+    "cocos",
+    "lifeGame"
+  ],
+  "author": "anarckk@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  }
+}
